@@ -1,0 +1,41 @@
+*
+!*/
+*.Rcheck/
+**/__pycache__/
+*.ipynb_checkpoints/
+
+########################
+# Archivos que NO ignora
+
+!LICENSE
+!license
+
+## Latex
+!*.tex
+*-concordance.tex
+!*.bib
+!*.bst
+!*.sty
+!*.cls
+
+## Codigo
+!*.jl
+!*.py
+!*.R
+!*.c
+!*.sql
+
+## Texto
+!*.md
+!*.txt
+!*.sh
+
+## Otros
+!makefile
+!Makefile
+!.keep
+!.gitkeep
+!.gitignore
+
+*-gitignore*
+
