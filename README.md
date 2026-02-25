@@ -167,7 +167,29 @@ El problema real detrás de este problema de conocimiento es responder preguntas
 <a name="programa"></a>
 
 ## Programa
----
+<h4>Unidad 1. Argumentos causales alternativos e incertidumbre.</h4>
+<p>Especificación y evaluación de modelos causales (Monty Hall y Base). Modelos adaptativos al contexto, estructura invariante del dato empírico y entropía cruzada.</p>
+
+<h4>Unidad 2. Métodos de inferencia.</h4>
+<p>Inferencia exacta, pasaje de mensajes y algoritmo suma-producto. Inferencia aproximada (Expectation Propagation, Variational Inference, MCMC) y lenguajes de programación probabilística.</p>
+
+<h4>Unidad 3. Predicciones causales.</h4>
+<p>Flujo de inferencia y eliminación de asociación espuria (d-separation, backdoor). Estimandos y Do-Calculus (adjustment formula, frontdoor, variables instrumentales).</p>
+
+<h4> Unidad 4. El zoológico de algoritmos.</h4>
+<p>Métodos tradicionales (Matching, IPW). Algoritmos de competencia (CausalML, Meta-Learners, Causal Forest, Double Machine Learning) y estimación de efectos heterogéneos.</p>
+
+<h4>Unidad 5. Tiempo.</h4>
+<p>Algoritmos temporales (Difference-in-Differences, Synthetic Control). Modelos causales generativos temporales (HMM, TrueSkill Through Time, smoothing).</p>
+
+<h4>Unidad 6. Contrafactuales.</h4>
+<p>Twin Networks y equivalencia entre enfoques (Potential Outcomes vs SCM). Descomposición de efectos (Directos e Indirectos) y Mediation Formula.</p>
+
+<h4>Unidad 7. Toma de decisiones.</h4>
+<p>Función de costo epistémica-evolutiva (Criterio Kelly). Corrección temporal de la Teoría de Utilidad Esperada y optimización como inferencia. Micro experimentos.</p>
+
+<h4>Unidad 8. Intervenciones socioeconómicas.</h4>
+<p>Instituciones exitosas y bienes comunes. Diseño de instrumento financiero-productivo (ahorro, ordenamiento territorial, ciclo de reproducción).</p>
 
 <a name="guia-para-reconfigurar-tu-repositorio"></a>
 
@@ -253,29 +275,3 @@ Ahora vamos a organizar la estructura de archivos de tu repositorio desde tu com
 |
 `-- .gitmodules               <-- (Archivo de configuración del submódulo)
 ```
-<!--
-<h3>Primera parte</h3>-->
-
-<h4>Unidad 1. Argumentos causales alternativos e incertidumbre.</h4>
-<p>Especificación y evaluación de modelos causales (Monty Hall y Base). Modelos adaptativos al contexto, estructura invariante del dato empírico y entropía cruzada.</p>
-
-<h4>Unidad 2. Métodos de inferencia.</h4>
-<p>Inferencia exacta, pasaje de mensajes y algoritmo suma-producto. Inferencia aproximada (Expectation Propagation, Variational Inference, MCMC) y lenguajes de programación probabilística.</p>
-
-<h4>Unidad 3. Predicciones causales.</h4>
-<p>Flujo de inferencia y eliminación de asociación espuria (d-separation, backdoor). Estimandos y Do-Calculus (adjustment formula, frontdoor, variables instrumentales).</p>
-
-<h4> Unidad 4. El zoológico de algoritmos.</h4>
-<p>Métodos tradicionales (Matching, IPW). Algoritmos de competencia (CausalML, Meta-Learners, Causal Forest, Double Machine Learning) y estimación de efectos heterogéneos.</p>
-
-<h4>Unidad 5. Tiempo.</h4>
-<p>Algoritmos temporales (Difference-in-Differences, Synthetic Control). Modelos causales generativos temporales (HMM, TrueSkill Through Time, smoothing).</p>
-
-<h4>Unidad 6. Contrafactuales.</h4>
-<p>Twin Networks y equivalencia entre enfoques (Potential Outcomes vs SCM). Descomposición de efectos (Directos e Indirectos) y Mediation Formula.</p>
-
-<h4>Unidad 7. Toma de decisiones.</h4>
-<p>Función de costo epistémica-evolutiva (Criterio Kelly). Corrección temporal de la Teoría de Utilidad Esperada y optimización como inferencia. Micro experimentos.</p>
-
-<h4>Unidad 8. Intervenciones socioeconómicas.</h4>
-<p>Instituciones exitosas y bienes comunes. Diseño de instrumento financiero-productivo (ahorro, ordenamiento territorial, ciclo de reproducción).</p>
