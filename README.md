@@ -4,13 +4,12 @@
 ## Índice
 
 1. [Descripción general](#descripcion-general)
-2. [Cronograma](#cronograma)
-3. [Materia](#materia-inferencia-bayesiana-causal-1-ibc120261)
-4. [Evaluación](#evaluacion)
-5. [Objetivos](#objetivos)
-6. [Marco Conceptual](#marco-conceptual)
-7. [Programa](#programa)
-8. [Guía para reconfigurar tu repositorio](#guia-para-reconfigurar-tu-repositorio)
+2. [Materia](#materia-inferencia-bayesiana-causal-1-ibc120261)
+3. [Evaluación](#evaluacion)
+4. [Objetivos](#objetivos)
+5. [Marco Conceptual](#marco-conceptual)
+6. [Programa](#programa)
+7. [Guía para reconfigurar tu repositorio](#guia-para-reconfigurar-tu-repositorio)
 
 ---
 
@@ -23,73 +22,6 @@
 </tr>-->
 
 
-
-<a name="cronograma"></a>
-
-## Cronograma
-
-
-<table>
-  <tr>
-    <td width="20%" align="center">Unidad</td>
-    <td width="20%" align="center">Bibliografía</td>
-    <td width="20%" align="center">Teórica</td>
-    <td width="20%" align="center">Práctica</td>
-    <td width="20%" align="center">Video</td>
-  </tr>
-  <tr>
-    <td width="20%" align="center">0 - Previa<br><br></td>
-    <td width="20%" align="center"><a href="https://bayes.wustl.edu/etj/articles/general.background.pdf">Jaynes 1984 (completo)</a><br><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/05/Bishop-MBML-2012.pdf">Bishop 2013 (1-4)</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/teorica/0-previa.pdf">0-previa.pdf</a></td>
-    <td width="20%" align="center"></td>
-    <td width="20%" align="center"><br><br></td>
-  </tr>
-<!--  <tr>
-    <td width="20%" align="center">1 - Especificación y evaluación de modelos</td>
-    <td width="20%" align="center"><a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">Bishop 2006 (1.1-1.3, 2.1-2.3, 3.3-3.4)</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/teorica/1-modelo.pdf">1-modelo.pdf</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/practica/1-practica.zip">1-practica.zip</a></td>
-    <td width="20%" align="center"><a href="https://youtu.be/iwrhjeLuCAo?si=PYQhQRNcvR0OOA2c">Video YouTube<br><br></a></td>
-  </tr>
-  <tr>
-    <td width="20%" align="center">2 - Sorpresa: el problema de la comunicación con la realidad</td>
-    <td width="20%" align="center"><a href="https://www.inference.org.uk/itprnn/book.pdf">MacKay (1.1, 2.4-6, 4.1)</a><br><a href="https://www.princeton.edu/~wbialek/rome/refs/kelly_56.pdf">Kelly (completo)</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/teorica/2-dato.pdf">2-dato.pdf</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/practica/2-practica.zip">2-practica.zip</a></td>
-    <td width="20%" align="center"><a href="https://youtu.be/nNkodZAbhtg?si=ewEdSmgKCDehVuOT">Video YouTube</a><br><br></td>
-  </tr>
-  <tr>
-    <td width="20%" align="center">3 Flujo de inferencia en estructuras causales dinámicas</td>
-    <td width="20%" align="center"><a href="http://www.cs.utoronto.ca/~radford/csc2506/factor.pdf">Kschischang (1,2.2,4,5.1)</a><br><a href="https://papers.nips.cc/paper/3079-trueskilltm-a-bayesian-skill-rating-system.pdf">Herbrich (completo)</a><br><a href="http://proceedings.mlr.press/v22/winn12/winn12.pdf">Winn (completo)</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/teorica/3-flujo.pdf">3-flujo.pdf</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/practica/3-practica.zip">3-practica.zip</a></td>
-    <td width="20%" align="center"><a href="https://www.youtube.com/watch?v=teuIVfJMomQ">Video Semana 3.1</a><br><a href="https://www.youtube.com/watch?v=HaqOMW4h76c">Video Semana 3.2</a><br></td>
-  </tr>
-  <tr>
-    <td width="20%" align="center">4 Estimación pasiva de efectos causales</td>
-    <td width="20%" align="center"><a href="https://www.cs.jhu.edu/~joanne/cs105/spring17/pearl-etal-intro.pdf">Pearl 2016 (2 a 4)</a><br><a href="https://ftp.cs.ucla.edu/pub/stat_ser/r493.pdf">Cinelli (completo)</a><br><a href="https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf">Neal (optativo)</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/teorica/4-causa.pdf">4-causa.pdf</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/practica/4-practica.pdf">4-practica.pdf</a></td>
-    <td width="20%" align="center"><a href="https://www.youtube.com/watch?v=XE8ASZlQjGo">Video Semana 4.1</a><br><a href="https://www.youtube.com/watch?v=DEoQjAja71Y">Video Semana 4.2</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="center">5 Modelos de historia completa</td>
-    <td width="20%" align="center"><a href="https://papers.nips.cc/paper_files/paper/2007/file/9f53d83ec0691550f7d2507d57f4f5a2-Paper.pdf">Dangauthier 2008 (completo)</a><br><a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">Bishop 2006 (sec 13)</a><br><a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41854.pdf">Brodersen (optativo)</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/teorica/5-tiempo.pdf">5-tiempo.pdf</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/practica/5-practica.zip">5-practica.zip</a></td>
-    <td width="20%" align="center"><a href="https://www.youtube.com/watch?v=CkD8irRKh1Q">Video Semana 5</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="center">6 Acción-percepción</td>
-    <td width="20%" align="center"><a href="https://www.nature.com/articles/s41567-019-0732-0.pdf">Peters 2019 (completo)</a><br><a href="https://arxiv.org/pdf/1805.00909.pdf">Levine 2018 (sec 1 y 2)</a><br><a href="https://direct.mit.edu/books/book-pdf/2246566/book_9780262369978.pdf">Parr 2022 (optativo)</a><br><a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/bies.202100255?download=true">Czégel 2022 (optativo)</a></td>
-    <td width="20%" align="center"><a href="https://github.com/MetodosBayesianos/IBC1.2024.2/releases/download/teorica/6-accion.pdf">6-accion.pdf</a></td>
-    <td width="20%" align="center">Examen final</td>
-    <td width="20%" align="center"><a href="https://youtu.be/I5sKUntajaQ">Video Semana 6</a>
-    </td>
-  </tr>-->
-</table>
 
 
 
@@ -250,7 +182,7 @@ Ahora vamos a organizar la estructura de archivos de tu repositorio desde tu com
 
   ```bash
   # Este comando conecta tu repo con el de la materia
-  git submodule add -f https://github.com/MetodosBayesianos/IBC1.2025.2.git materiales_del_curso
+  git submodule add -f https://github.com/MetodosBayesianos/IBC1.2026.1.git materiales_del_curso
   ```
 
 4.  Finalmente, guarda y sube todos estos cambios estructurales a GitHub.
