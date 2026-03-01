@@ -1,6 +1,10 @@
 
 # IBC1.2026.1
 
+## Materiales
+
+1. Argumentos causales e incertidumbre: [video](https://youtu.be/5pzmCWPaRMM?si=qDESYdtz3q6Z9F-z).
+
 
 ## Índice
 
