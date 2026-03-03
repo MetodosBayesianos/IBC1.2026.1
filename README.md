@@ -97,6 +97,11 @@ Los contenidos completos del programa se encuentran en [su carpeta específica](
 
 - Virtual: https://bayesplurinacional.org/link/VideoConferencia.html
 
+**Comunicación**
+
+- Discord de la materia: pedir acceso.
+- Discord de la [comunidad Bayes Plurinacional](https://discord.gg/BPw3GX8xBg)
+
 ### Evaluación
 
 Para las evaluaciones es necesario que tengas un **repositorio privado** (agregando al equipo docente como colaboradores) donde puedas subir la solución a los ejercicios prácticos y teóricos. Te proponemos, además, que incluyas este repositorio público como submódulo, lo que te permitirá tener actualizados los materiales de la materia haciendo pull.
