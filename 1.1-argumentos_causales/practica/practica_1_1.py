@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore")
 # 1. Definición del espacio de hipótesis
 # ------------------------------------------------------------
 
-# H representa las 3 cajas posibles
+# H representa las 3 cajas posibles {0, 1, 2}
 H = np.arange(3)
 
 
@@ -33,7 +33,7 @@ def p_r(r: int) -> float:
     """
     P(R = r).
     Prior sobre la ubicación del regalo.
-    r ∈ {1, 2, 3}
+    r ∈ {0, 1, 2}
     """
     pass
 
@@ -42,7 +42,7 @@ def p_c(c: int) -> float:
     """
     P(C = c).
     Prior sobre la caja elegida por el participante
-    c ∈ {1, 2, 3}
+    c ∈ {0, 1, 2}
     """
     pass
 
@@ -57,8 +57,8 @@ def p_s_rM0(s: int, r: int) -> float:
     P(S = s | R= r, M = 0).
     Modelo 0 (No Monty Hall):
     El presentador abre cualquier caja que no tenga el regalo.
-    s ∈ {1, 2, 3}
-    r ∈ {1, 2, 3}
+    s ∈ {0, 1, 2}
+    r ∈ {0, 1, 2}
     """
     pass
 
@@ -69,9 +69,9 @@ def p_s_rcM1(s: int, r: int, c: int):
     Modelo 1 (Monty Hall):
     El presentador abre una caja que no tenga el regalo
     ni haya sido seleccionada.
-    s ∈ {1, 2, 3}
-    r ∈ {1, 2, 3}
-    c ∈ {1, 2, 3}
+    s ∈ {0, 1, 2}
+    r ∈ {0, 1, 2}
+    c ∈ {0, 1, 2}
     """
     pass
 
@@ -85,9 +85,9 @@ def p_rcs_M(r: int, c: int, s: int, m: int) -> float:
     """
     P(r, c, s | M) = P(r | M)P(c | M)P(s | r, c, M)
     Distribución conjunta del modelo m.
-    s ∈ {1, 2, 3}
-    r ∈ {1, 2, 3}
-    c ∈ {1, 2, 3}
+    s ∈ {0, 1, 2}
+    r ∈ {0, 1, 2}
+    c ∈ {0, 1, 2}
     m ∈ {0, 1}
     """
     pass
@@ -119,8 +119,8 @@ def p_s_cM(s: int, c: int, m: int) -> float:
     Distribución condicional sobre la caja seleccionada por
     el presentador dada la elección del participante y el
     modelo considerado.
-    s ∈ {1, 2, 3}
-    c ∈ {1, 2, 3}
+    s ∈ {0, 1, 2}
+    c ∈ {0, 1, 2}
     m ∈ {0, 1}
     """
     pass
@@ -132,9 +132,9 @@ def p_r_csM(r: int, c: int, s: int, m: int) -> float:
     Distribución condicional sobre la posición del regalo dada
     la elección del participante, la caja seleccionada por el presentador
     y el modelo considerado.
-    s ∈ {1, 2, 3}
-    c ∈ {1, 2, 3}
-    r ∈ {1, 2, 3}
+    s ∈ {0, 1, 2}
+    c ∈ {0, 1, 2}
+    r ∈ {0, 1, 2}
     m ∈ {0, 1}
     """
     pass
@@ -144,9 +144,9 @@ def pEpisodio_M(c: int, s: int, r: int, m: int) -> float:
     """
     P(c, s, r | M)
     Probabilidad de ver un episodio dado el modelo considerado.
-    s ∈ {1, 2, 3}
-    c ∈ {1, 2, 3}
-    r ∈ {1, 2, 3}
+    s ∈ {0, 1, 2}
+    c ∈ {0, 1, 2}
+    r ∈ {0, 1, 2}
     m ∈ {0, 1}
     """
     pass
