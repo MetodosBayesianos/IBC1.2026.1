@@ -56,13 +56,7 @@ La materia <code>Inferencia Bayesiana Causal 1</code> se imparte como optativa e
 
 <br>
 
-Habrá dos formas de evaluación.
-<ol>
-<li> Por un lado podrán realizar auto-evaluaciones descargando del repositorio oficial los casos de test con lo que verificar la correctitud de sus ejercicios.</li>
-<li> Por otro lado, el equipo docente al tener acceso a su repositorio privado tendrá acceso a sus soluciones y ejecutará tests adicionales.</li>
-</ol>
-
-
+Las evaluaciones se realizarán por el equipo docente, que al tener acceso a su repositorio privado tendrá acceso a sus soluciones y ejecutará tests para validar la correctitud de sus ejercicios usando diversas métricas probabilísticas.
 
 <a name="objetivos"></a>
 
