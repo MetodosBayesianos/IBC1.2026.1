@@ -51,6 +51,12 @@ Los contenidos completos del programa se encuentran en [su carpeta específica](
 
 #### 1.2. Sorpresa: el problema de la comunicación con la realidad.
 
+*Materiales*:
+
+* [Video](https://youtu.be/2K9h6mB-xfc?si=uUAxLgBLR-HQ_3Ku)
+* [Teórica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/1.1-argumentos_causales/teorica)
+* [Práctica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/1.1-argumentos_causales/practica)
+
 ### Unidad 2. Métodos de inferencia y programación probabilística.
 
 #### 2.1. nferencia exacta y pasaje de mensajes.
@@ -95,7 +101,7 @@ Los contenidos completos del programa se encuentran en [su carpeta específica](
 
 **Lugar**:
 
-- Virtual: https://bayesplurinacional.org/link/VideoConferencia.html
+- Virtual: https://bayesplurinacional.org/link/SalaIBC.html
 
 **Comunicación**
 
@@ -117,7 +123,6 @@ Pasos:
 
 1. **Crear tu repositorio privado** en github o gitlab y agregar el .gitignore de este repositorio público en tu reposoitorio privado.
 2. **Agregar a los docentes como colaboradores** para que podamos ver tu trabajo y corregirlo. En la misma página de **`Settings`**, ve a la sección **`Collaborators`** en el menú de la izquierda. Haz clic en el botón verde **`Add people`**. Agrega a los siguientes usuarios (debes hacerlo uno por uno): `glandfried`, `gerardo1909`, `lucasbarreiroe`. Ellos recibirán una invitación por correo que deberán aceptar para tener acceso.
-3. 
 3. **Organización interna de los archivos**. Crea una carpeta en la raíz llamada `entregas`, idealmente ordenado con la misma estructura que el repositorio público, una carpeta por semana. Agregar en la raíz este repositorio público como un submódulo `git submodule add -f git@github.com:MetodosBayesianos/IBC1.2026.1.git materiales_del_curso`
 
 ¡Listo! Al terminar, la estructura de tu repositorio en tu computadora y en GitHub se verá así:

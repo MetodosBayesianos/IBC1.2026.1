@@ -137,7 +137,7 @@ def p_r_csM(r: int, c: int, s: int, m: int) -> float:
 
 def pEpisodio_M(c: int, s: int, r: int, m: int) -> float:
     """
-    P(c, s, r | M)
+    P(c, s, r | M) = P(c)P(s|c)P(r|s,c)
     Probabilidad de ver un episodio dado el modelo considerado.
     s ∈ {0, 1, 2}
     c ∈ {0, 1, 2}
@@ -149,7 +149,7 @@ def pEpisodio_M(c: int, s: int, r: int, m: int) -> float:
 
 def pDatos_M(datos: List[Tuple[int, int, int]], m: int) -> float:
     """
-    P(Datos | M)
+    P(Datos | M) = prod([ P(c,s,r|M) for c, s, r in Datos ])
     Probabilidad de ver los datos dados el modelo considerado.
     m ∈ {0, 1}
     """
