@@ -54,8 +54,8 @@ Los contenidos completos del programa se encuentran en [su carpeta específica](
 *Materiales*:
 
 * [Video](https://youtu.be/2K9h6mB-xfc?si=uUAxLgBLR-HQ_3Ku)
-* [Teórica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/1.1-argumentos_causales/teorica)
-* [Práctica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/1.1-argumentos_causales/practica)
+* [Teórica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/1.2-sorpresa_comunicacion_realidad/teorica)
+* [Práctica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/1.2-sorpresa_comunicacion_realidad/practica)
 
 ### Unidad 2. Métodos de inferencia y programación probabilística.
 
