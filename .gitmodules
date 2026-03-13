@@ -1,0 +1,6 @@
+[submodule "estudiantes/mpustil"]
+	path = estudiantes/mpustil
+	url = git@github.com:mpustil/IBC2026Pustilnik.git
+[submodule "estudiantes/echurruca"]
+	path = estudiantes/echurruca
+	url = git@github.com:echurruca/IBC1.2026.1.git
