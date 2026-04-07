@@ -59,7 +59,12 @@ Los contenidos completos del programa se encuentran en [su carpeta específica](
 
 ### Unidad 2. Métodos de inferencia y programación probabilística.
 
-#### 2.1. nferencia exacta y pasaje de mensajes.
+#### 2.1. Inferencia exacta y pasaje de mensajes.
+
+*Materiales*:
+
+* [Video](https://youtu.be/zfMJbwcFBjQ?si=Axa1pHgZI3wNlYd2)
+
 #### 2.2. Olvido: el problema de la inferencia aproximada
 
 ### Unidad 3. Predicciones causales.
