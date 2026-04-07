@@ -133,7 +133,7 @@ def p_p(p: float) -> float:
     Prior sobre la memoria del presentador.
     p ∈ [0, 1]
     """
-    return 1/len(P_GRID)
+    pass
 
 
 def p_a_p(a: int, p: float) -> float:
@@ -144,10 +144,7 @@ def p_a_p(a: int, p: float) -> float:
     a ∈ {0, 1}
     p ∈ [0, 1]
     """
-    if a == 1:
-        return p
-    else:
-        return 1-p
+    pass
 
 
 # ------------------------------------------------------------
@@ -164,17 +161,13 @@ def p_csr_p(r: int, c: int, s: int, p: float) -> float:
     c ∈ {0, 1, 2}
     p ∈ [0, 1]
     """
-    return p*p_rcs_M(r, c, s, 1) + (1.0 - p) * p_rcs_M(r, c, s, 0)
+    pass
 
 
 # ------------------------------------------------------------
 # 5. Posterior de la memoria p
 # ------------------------------------------------------------
 
-def P_p_coma_datos(p: float, datos: List[Tuple[int, int, int]])
-    P_p_coma_datos = p_p(p)
-    for (c,s,r) in datos:
-        P_p_coma_datos *= p_csr_p(c=c,s=s,r=r,p=p)
 
 def p_p_datos(p: float, datos: List[Tuple[int, int, int]]) -> float:
     """
@@ -183,11 +176,8 @@ def p_p_datos(p: float, datos: List[Tuple[int, int, int]]) -> float:
     Datos: Lista de tuplas (c, s, r)
     p ∈ [0, 1]
     """
+    pass
 
-    suma = 0
-    for p_ in P_GRID:
-
-    return P_p_coma_datos/sum(P_p_coma_datos)
 
 # ------------------------------------------------------------
 # 6. Estimación de p mediante datos observados

@@ -64,8 +64,8 @@ Los contenidos completos del programa se encuentran en [su carpeta específica](
 *Materiales*:
 
 * [Video](https://youtu.be/zfMJbwcFBjQ?si=YzlEXencLJyIGlyX)
-* [Teórica]()
-* [Práctica]()
+* [Teórica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/2.1-inferencia_exacta/teorica)
+* [Práctica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/2.1-inferencia_exacta/practica)
 
 #### 2.2. Olvido: el problema de la inferencia aproximada
 
