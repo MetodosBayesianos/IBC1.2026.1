@@ -71,6 +71,11 @@ Los contenidos completos del programa se encuentran en [su carpeta específica](
 
 ### Unidad 3. Predicciones causales.
 #### 3.1. Flujo de inferencia y eliminación de la influencia espuria.
+
+* [Teórica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/3.1-flujo_de_inferencia/teorica)
+* [Práctica](https://github.com/MetodosBayesianos/IBC1.2026.1/tree/main/3.1-flujo_de_inferencia/practica)
+
+
 #### 3.2. Estimandos, Do-Calculus.
 
 ### Unidad 4. El zoológico de algoritmos.
